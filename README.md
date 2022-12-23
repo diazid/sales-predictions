@@ -137,9 +137,10 @@ The Decision Tree pipeline is as follow:
 
 ### Base Line Model
 
-|  | Train | Test  |
-RMSE | 1720.306863 | 1664.975814 |
-R^2 | 0.0  | -0.004772 | 
+|     | Train       | Test        |
+|-----|-------------|-------------|
+|RMSE | 1720.306863 | 1664.975814 |
+|R^2  | 0.0         | -0.004772   | 
 
 ### Lirear Regression Scores
 
