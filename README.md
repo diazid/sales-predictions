@@ -142,11 +142,29 @@ The Decision Tree pipeline is as follow:
 |RMSE | 1720.306863 | 1664.975814 |
 |R^2  | 0.0         | -0.004772   | 
 
-### Lirear Regression Scores
+### Linear Regression Scores
 
+|     | Train       | Test        |
+|-----|-------------|-------------|
+|RMSE | 1140.324208 | 1094.756967 |
+|R^2  | 0.560615    | 0.565603    | 
 
+### Desicion Tree
+
+|     | Train       | Test        |
+|-----|-------------|-------------|
+|RMSE | 1082.64619  | 1057.44313  |
+|R^2  | 0.60394     | 0.59471     | 
 
 * Both linear regression and decision trees obtained similar results with regard to RMSE and R^2 Score values.
-* It would be necessary to try another model, such as Random Forest or Neural Networks, to see if the model fits better.
+* It would be necessary to try another model, such as Random Forest to see if the resul improves. 
+* So fat, the model that perform better is the Decision Tree.
+
+## For Further Information
+
+For any additional questions, please contact:
+
+    Israel Diaz (Data Scientist in Training)
+    diaz.israel@aol.com
 
 
