@@ -29,6 +29,15 @@ The data frame register 8523 entries and 12 variable. Each variable represent th
 
 [Big Mart Sales Prediction](https://datahack.analyticsvidhya.com/contest/practice-problem-big-mart-sales-iii/)
 
+## Cleaning Data
+
+To prepare the data for exploratory analysis, I performed data cleansing by basically removing duplicate values, correcting inconsistencies in data types, and imputing missing values.
+
+## Exploratory Analysis
+
+I get the following outcomes from the EAD:
+
+
 
 
 
