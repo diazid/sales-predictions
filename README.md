@@ -33,58 +33,17 @@ To prepare the data for exploratory analysis, I performed data cleansing by basi
 
 ## Exploratory Analysis
 
-### Univariate Analysis Outcomes
+I have found two major insights from the analysis:
 
-I get the following outcomes from the EAD:
+* Despite how little intuitive, the wider range of sales occured in items with low visibility.
+* I found a moderate positive correlation between the MRP value and the Sales, so the more MRP, the wider range of sales. 
 
-* The low fat items almost doubled the regular items in quantity every year.
-* Seafood was the item with less quantity every year. 
-* Fruits and Vegetables was the item with more quantity almost every year except 2007, followed by Snack Foods that was the first one in 2007.
-
-The supporting visualizations are the following
-
-**Item Fat Content Histomgram by Year**
-
-![](https://raw.githubusercontent.com/diazid/sales-predictions/main/histogram1.png)
-
-**Item Type Histogram by Year**
-
-![](https://raw.githubusercontent.com/diazid/sales-predictions/main/histogram2.png)
-
-**Outlet Establishment by Year**
-
-![](https://raw.githubusercontent.com/diazid/sales-predictions/main/histogram3.png)
-
-For more technical visualizations you may open the [Jupyter Notebook here](https://github.com/diazid/sales-predictions/blob/main/sales_prediction.ipynb)
-
-
-### Multivariate Analysis Outcomes
-
-* Every year (except 1985 and 1998) it is seen that for a range of visibility between 0 - 0.1 the highest amount of sales between 0 to 5000 was produced.
-* In 1985, the range was much higher than in subsequent years, with sales between 0 - 75,000 for a visibility range of between 0 - 0.2.
-* In 1998, sales were quite low for any visibility range.
-
-Supporting visualization:
-
-**Item Visibility vs Outlet Sales**
+**Item_Visualization vs Outlet Sales**
 ![](https://github.com/diazid/sales-predictions/raw/main/multihistogram1.png)
 
 
-#### Parallel Categories Analysis
-
-This graph is very insightfull because we can see the right proportion of sales in three (or more) variables, in this case `Item Type`, `Outlet Location` and `Year`, and the width of every stream correspond to the sales of that particular portion of the stream, so it is possible to compare the total sales per item, location, and year. 
-
-![](https://github.com/diazid/sales-predictions/raw/main/paralelset.png)
-
-We can extract the folling outcome.
-
-* By hovering over the graph is easy to see that the item most sold was `Fruits and Vegetables` of every year.
-* Tier_1 location sold the most in years 1997 and 1999.
-* Tier 2 location sold the most in years 2002, 2004, and 2007
-* Tier 3 location sold the most in years 1985, 1987, 1998, and 2009
-* The proportions of Items in every Tier location seem to be the same.
-
-The visualization is interactive, if you can get more insights you may open the [Jupyter Notebook here](https://github.com/diazid/sales-predictions/blob/main/sales_prediction.ipynb)
+**Item MRP vs Outlet Sales**
+![](https://github.com/diazid/sales-predictions/raw/main/multihistogram2.png)
 
 
 ## Results
