@@ -2,7 +2,7 @@
 
 By: Israel Diaz
 
-The goal of the project is try to predict the sales for food items at various stores, with the purpose to help retailers to undestand the properties of products and sales that play crucial roles in increasing sales. 
+    The goal of the project is try to predict the sales for food items at various stores, with the purpose to help retailers to undestand the properties of products and sales that play crucial roles in increasing sales. 
 
 ## Description of the Data
 
@@ -46,7 +46,7 @@ I have found two major insights from the analysis:
 ![](https://github.com/diazid/sales-predictions/raw/main/multihistogram2.png)
 
 
-## Results
+## Model Evaluation
 
 To make the Sales predictions I have built 2 models, Linear Regression and Decision Tree, the models were made as follows:
 
@@ -78,7 +78,7 @@ To make the Sales predictions I have built 2 models, Linear Regression and Decis
 
 ## Recommendations
 
-To continue with this theme, I recommend
+To continue with this theme, I recommend:
 
 * To build models based on Random Forrest, Support Vector Machines and XGBoost to find better performance in predicting target values.
 * To do feature engineering, because we have the `Item_Identifier` and it would be interesting to see what each part of the ID means.
