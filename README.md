@@ -78,11 +78,10 @@ To make the Sales predictions I have built 2 models, Linear Regression and Decis
 |R^2  | 0.60394     | 0.59471     | 
 
 
+## Recommendation:
+
+
     Based on the results I recommend to use the Decision Tree models to performe predictions. 
-
-## Final Notes:
-
-In further stages I'll try with other Machine Learning models, such as Logistic Regression, Random Forest Support Vector Machine, XGBoost.
 
 ## For Further Information
 
