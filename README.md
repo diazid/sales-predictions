@@ -54,21 +54,23 @@ To make the Sales predictions I have built 2 models, Linear Regression and Decis
 * It would be necessary to try another model, such as Random Forest, to see if the result improves.
 * So far, the model that works best is the Decision Tree.
 
-### Base Line Model
+### Results
+
+**Base Line Model**
 
 |     | Train       | Test        |
 |-----|-------------|-------------|
 |RMSE | 1720.306863 | 1664.975814 |
 |R^2  | 0.0         | -0.004772   | 
 
-### Linear Regression Scores
+**Linear Regression Scores**
 
 |     | Train       | Test        |
 |-----|-------------|-------------|
 |RMSE | 1140.324208 | 1094.756967 |
 |R^2  | 0.560615    | 0.565603    | 
 
-### Desicion Tree
+**Desicion Tree**
 
 |     | Train       | Test        |
 |-----|-------------|-------------|
@@ -76,12 +78,11 @@ To make the Sales predictions I have built 2 models, Linear Regression and Decis
 |R^2  | 0.60394     | 0.59471     | 
 
 
-## Recommendations
+    Based on the results I recommend to use the Decision Tree models to performe predictions. 
 
-To continue with this theme, I recommend:
+## Final Notes:
 
-* To build models based on Random Forrest, Support Vector Machines and XGBoost to find better performance in predicting target values.
-* To do feature engineering, because we have the `Item_Identifier` and it would be interesting to see what each part of the ID means.
+In further stages I'll try with other Machine Learning models, such as Logistic Regression, Random Forest Support Vector Machine, XGBoost.
 
 ## For Further Information
 
