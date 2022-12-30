@@ -2,7 +2,7 @@
 
 By: Israel Diaz
 
-    The goal of the project is try to predict the sales for food items at various stores, with the purpose to help retailers to undestand the properties of products and sales that play crucial roles in increasing sales. 
+The goal of the project is try to predict the sales for food items at various stores, with the purpose to help retailers to undestand the properties of products and sales that play crucial roles in increasing sales. 
 
 ## Description of the Data
 
