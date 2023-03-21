@@ -39,11 +39,11 @@ I have found two major insights from the analysis:
 * I found a moderate positive correlation between the MRP value and the Sales, so the more MRP, the wider range of sales. 
 
 **Item_Visualization vs Outlet Sales**
-![](https://github.com/diazid/sales-predictions/raw/main/multihistogram1.png)
+![](imgs/multihistogram1.png)
 
 
 **Item MRP vs Outlet Sales**
-![](https://github.com/diazid/sales-predictions/raw/main/multihistogram2.png)
+![](imgs/multihistogram2.png)
 
 
 ## Model Evaluation
