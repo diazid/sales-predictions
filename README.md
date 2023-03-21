@@ -91,8 +91,8 @@ In our previous Analysis, we fit a decision tree model, at this time we decided 
 
 |     | Train       | Test        |
 |-----|-------------|-------------|
-|RMSE | 1082.64619  | 1057.44313  |
-|R^2  | 0.60394     | 0.59471     | 
+|RMSE | 944.05      | 1061.56     |
+|R^2  | 0.70        | 0.59        | 
 
 For out random forest model we can extract the following analysis from the features:
 
