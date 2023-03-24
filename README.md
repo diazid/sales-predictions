@@ -61,7 +61,6 @@ To make the Sales predictions I have built 2 models, Linear Regression and Decis
 
 ### Results
 
-
 **Linear Regression Scores**
 
 |     | Train       | Test        |
@@ -108,7 +107,6 @@ Comparing the random forest feature importances and the permutation importances 
     * Item_Visibility
 * The 5th most important feature is Item_Weight in RF Feature Importance, and Outlet_Type_Supermarket Type1 in Permutation Importance.
 
----
 
 **Feature Importance using SHAP**
 
@@ -128,7 +126,33 @@ The 3 more important features are the following:
 | **Outlet_Type_Grocery Store:**     | As the red dots are on the left side of the plot, we can see that the model is likely to predict lower sales for grocery stores.      |
 | **Outlet_Type_Supermarket Type3:** | As the red dots are on the right side of the plot, we can see that the model is likely to predict higher sales for Supermarket Type3. |
 
-## Conclusions.
+**Local Explanations**
+
+We selected 2 observations for trying to interprete the model does the predictions, first the lower sales from grocery stores (as the grocery is the lower sales class) and higher sales from Supermarket Type3 (as the SMT3 is the higher sales class)
+
+* Low Sales from Grocery Store
+
+    * SHAP Force plot 
+    ![png](/imgs/grocery_store_lower_sales.png)
+
+    * LIME plot
+    ![png](/imgs/grocery_store_lower_sales_lime.png)
+
+Both graphs shows the same result, grocery store class is pulling the model down.
+
+* Higher Sales from Supermarket Type3
+
+    * SHAP Force plot 
+    ![png](/imgs/type3_higher_sales.png)
+
+    * LIME plot
+    ![png](/imgs/type3_higher_sales_lime.png)
+
+This wasn't expected, both graphs gives diferent outcomes. For the force plot the Item_MRP is pushing the model up, so the higher the prices the higher the sales. For the Lime Tabular explainer the most influential class is Grocery Store (which is labeled as 0) and the second one is Item_MRP; in few words, as long as it is not a grocery store the sales will be high. 
+
+---
+
+## Conclusions
 
 * Both linear regression and decision trees obtained similar results with regard to RMSE and R^2 Score values on the test set.
 * Depending on the model to use, would be necessary to evaluate how the features take effect on the final outcome:
@@ -137,7 +161,7 @@ The 3 more important features are the following:
 
 ---
 
-## Recommendation:
+## Recommendation
 
 Based on the results I recommend to use the Decision Tree models to performe predictions. 
 
