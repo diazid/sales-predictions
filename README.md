@@ -110,6 +110,24 @@ Comparing the random forest feature importances and the permutation importances 
 
 ---
 
+**Feature Importance using SHAP**
+
+![png](/imgs/shap_feature_importance_bar.png)
+
+We can see that the most important features are the same (5 most important ones). The only difference is that the feature importance from the past analysis was based on the mean decrease in impurity. The SHAP summary plot is based on the magnitude of the effect on the model output. The SHAP summary plot is more accurate because it takes into account the interaction between the features.
+
+![png](/imgs/shap_feature_importance_dot.png)
+
+According to the graph above we can do some interpretation about how each feature pushes the prediction to one or another direction. 
+
+The 3 more important features are the following:
+
+| Feature                            | Interpretation                                                                                                                        |
+|------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
+| **Item_MRP:**                      | As the red dots are on the right side of the plot, we can see that the higher the MRP of the item, the higher the sales.              |
+| **Outlet_Type_Grocery Store:**     | As the red dots are on the left side of the plot, we can see that the model is likely to predict lower sales for grocery stores.      |
+| **Outlet_Type_Supermarket Type3:** | As the red dots are on the right side of the plot, we can see that the model is likely to predict higher sales for Supermarket Type3. |
+
 ## Conclusions.
 
 * Both linear regression and decision trees obtained similar results with regard to RMSE and R^2 Score values on the test set.
