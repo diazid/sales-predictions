@@ -171,8 +171,8 @@ Based on the results I recommend to use the Decision Tree models to performe pre
 
 For any additional questions, please contact:
 
-    Israel Diaz (Data Scientist in Training)
-    diaz.israel@aol.com
+    Israel Diaz (Data Analyst)
+    israel.diaz@aol.com
 
 Last Update: 04/26/2023
 
